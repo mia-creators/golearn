@@ -1,7 +1,7 @@
 package trees
 
 import (
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 	"math"
 	"sort"
 )

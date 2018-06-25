@@ -1,7 +1,7 @@
 package clustering
 
 import (
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )

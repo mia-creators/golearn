@@ -3,7 +3,7 @@ package linear_models
 import (
 	"errors"
 
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 
 	"fmt"
 	_ "github.com/gonum/blas"

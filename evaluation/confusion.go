@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"text/tabwriter"
 
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 )
 
 // ConfusionMatrix is a nested map of actual and predicted class counts

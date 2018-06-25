@@ -2,7 +2,7 @@ package clustering
 
 import (
 	"errors"
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 	"gonum.org/v1/gonum/mat"
 	"gonum.org/v1/gonum/stat"
 	"gonum.org/v1/gonum/stat/distmv"

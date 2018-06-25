@@ -3,8 +3,8 @@ package neural
 import (
 	"fmt"
 	"gonum.org/v1/gonum/mat"
-	"github.com/sjwhitworth/golearn/base"
-	"github.com/sjwhitworth/golearn/filters"
+	"github.com/mia-creators/golearn/base"
+	"github.com/mia-creators/golearn/filters"
 	"math"
 	"math/rand"
 )

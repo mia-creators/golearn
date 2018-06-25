@@ -3,9 +3,9 @@ package ensemble
 import (
 	"testing"
 
-	"github.com/sjwhitworth/golearn/base"
-	"github.com/sjwhitworth/golearn/evaluation"
-	"github.com/sjwhitworth/golearn/filters"
+	"github.com/mia-creators/golearn/base"
+	"github.com/mia-creators/golearn/evaluation"
+	"github.com/mia-creators/golearn/filters"
 	. "github.com/smartystreets/goconvey/convey"
 	"io/ioutil"
 	"os"

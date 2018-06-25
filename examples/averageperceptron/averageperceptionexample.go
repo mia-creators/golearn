@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	base "github.com/sjwhitworth/golearn/base"
-	evaluation "github.com/sjwhitworth/golearn/evaluation"
-	perceptron "github.com/sjwhitworth/golearn/perceptron"
+	base "github.com/mia-creators/golearn/base"
+	evaluation "github.com/mia-creators/golearn/evaluation"
+	perceptron "github.com/mia-creators/golearn/perceptron"
 	"math/rand"
 )
 

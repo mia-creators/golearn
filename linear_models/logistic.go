@@ -3,7 +3,7 @@ package linear_models
 import (
 	"errors"
 	"fmt"
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 )
 
 type LogisticRegression struct {

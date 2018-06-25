@@ -2,7 +2,7 @@ package neural
 
 import (
 	"gonum.org/v1/gonum/mat"
-	"github.com/sjwhitworth/golearn/base"
+	"github.com/mia-creators/golearn/base"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )
