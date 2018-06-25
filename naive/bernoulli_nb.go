@@ -2,8 +2,9 @@ package naive
 
 import (
 	"fmt"
-	"github.com/mia-creators/golearn/base"
 	"math"
+
+	"github.com/mia-creators/golearn/base"
 )
 
 // A Bernoulli Naive Bayes Classifier. Naive Bayes classifiers assumes
@@ -182,7 +183,7 @@ func NewBernoulliNBClassifier() *BernoulliNBClassifier {
 
 // Fill data matrix with Bernoulli Naive Bayes model. All values
 // necessary for calculating prior probability and p(f_i)
-func (nb *BernoulliNBClassifier) Fit(X base.FixedDataGrid) {
+func (nb *BernoulliNBClassifier) Fit(X base.FixedDataGrid) error {
 
 	// Check that all Attributes are binary
 	classAttrs := X.AllClassAttributes()
@@ -258,6 +259,8 @@ func (nb *BernoulliNBClassifier) Fit(X base.FixedDataGrid) {
 	}
 
 	nb.fitOn = base.NewStructuralCopy(X)
+
+	return nil
 }
 
 // Use trained model to predict test vector's class. The following
@@ -326,4 +329,9 @@ func (nb *BernoulliNBClassifier) Predict(what base.FixedDataGrid) (base.FixedDat
 	})
 
 	return ret, nil
+}
+
+//String returns the name of the classifier
+func (nb *BernoulliNBClassifier) String() string {
+	return "Bernoul=li_NB"
 }
