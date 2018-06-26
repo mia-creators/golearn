@@ -248,7 +248,10 @@ func (nb *BernoulliNBClassifier) Fit(X base.FixedDataGrid) error {
 	for c, _ := range nb.classInstances {
 		nb.condProb[c] = make([]float64, nb.features)
 		for feat := 0; feat < nb.features; feat++ {
-			classTerms, _ := docsContainingTerm[c]
+			classTerms, o := docsContainingTerm[c]
+			if !o {
+				continue
+			}
 			numDocs := classTerms[feat]
 			docsInClass, _ := nb.classInstances[c]
 
